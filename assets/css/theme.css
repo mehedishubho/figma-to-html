@@ -1,0 +1,108 @@
+/* 
+* Title : Theme css
+* Description : Basic and common css 
+* Devlope : Harun Biswas Rubel
+* Date: 11-02-2021
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    overflow-x: hidden;
+}
+p{
+    font-family: 'Hind', sans-serif;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: .65px;
+    color: #000;
+}
+h1, 
+h2, 
+h3,
+h4,
+h5, 
+h6{
+    font-family: 'Hind', sans-serif;
+    font-weight: 700;
+    font-size: normal;
+    line-height: 30px;
+    letter-spacing: .65px;
+    color: #031830;
+}
+span{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 15px;
+    line-height: 18.91px;
+    letter-spacing: .65px;
+    color: #8D8D8D;
+}
+a{
+    font-family: Hind;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000!important;
+    transition: .4s;
+}
+a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%!important;
+    height: auto;
+}
+
+/*  common design */
+
+.br-top-left{
+    border-top-left-radius: 50px !important;
+}
+.br-top-right{
+    border-top-right-radius: 50px !important;
+}
+.br-bottom-right{
+    border-bottom-right-radius: 50px !important;
+}
+.br-bottom-left{
+    border-bottom-left-radius: 50px !important;
+}
+.d-flex{
+    display: flex !important;
+}
+.width-full{
+    width: 100% !important;
+}
+.btn.theme-btn {
+    background-color: #031830;
+    color: #fff!important;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    padding: 10px 30px;
+    font-family: Hind;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 102%;
+    letter-spacing: 1.65px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s;
+}
+.btn.theme-btn:hover{
+    opacity: .95;
+}

@@ -1,0 +1,142 @@
+/* 
+* Title : Responsive css
+* Description : For fully responsive css 
+* Devlope : Harun Biswas Rubel
+* Date: 11-02-2021
+*/
+
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+@media only screen and (min-width: 1500px) {
+    .owl-nav {
+        right: 20%;
+    }
+}
+@media only screen and (max-width: 1400px) {
+    .owl-nav {
+        right: 10%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and down) */
+@media only screen and (max-width: 992px) {
+    ul.footer-nav {
+        display: flex!important;
+    }
+    .owl-nav {
+        right: 6%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and down) */
+@media only screen and (max-width: 768px) {
+
+    button.btn.nav-btn {
+        float: left!important;
+    }
+    button.btn.newsletter-form-btn {
+        margin: 20px 0;
+    }
+        
+    .footer-contact {
+        float: left;
+    }
+        
+    ul.footer-contact-social {
+        float: left!important;
+    }
+    ul.footer-nav {
+        display: flex!important;
+    }
+    .owl-nav {
+        right: 4%;
+    }
+    .offer-shopnow {
+        float: unset!important;
+        text-align: center;
+    }
+
+
+    h4.offer-shopnow-text:after{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .story-content {
+        margin: 0 !important;
+    }
+
+    p.catagory-product-icon {
+        top: 66%;
+        left: 77%;
+    }
+
+    .vulpute-content span {
+        padding: 0 30px;
+    }
+
+
+}
+/* Small devices (Mobile, 600px and down) */
+@media only screen and (max-width: 600px) {
+    button.btn.nav-btn {
+        float: left!important;
+    }
+    button.btn.newsletter-form-btn {
+        margin: 20px 0;
+    }
+    
+    .footer-contact {
+        float: left;
+    }
+    
+    ul.footer-contact-social {
+        float: left!important;
+    }
+    ul.footer-nav {
+        display: block!important;
+        margin-left: 10px;
+    }
+    li.footer-nav-item:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        background-color: #031830;
+        width: 9px;
+        height: 9px;
+        left: -5px;
+        transform: translateY(-50%);
+        border-radius: 50%;
+    }
+    .owl-nav {
+        right: 6%;
+    }
+
+    ul.offer-nav {
+        display: block!important;
+    }
+
+    .offer-shopnow {
+        text-align: left;
+        padding-left: 20px;
+    }
+    .story-content, .story-img-1{
+        padding-bottom: 20px;
+    }
+    .benefit-item {
+        margin: 15px 0;
+    }
+
+    .main-search-form {
+        float: left!important;
+        margin-bottom: 20px;
+    }
+
+    p.catagory-product-icon {
+        top: 79%;
+        left: 79%;
+    }
+
+}
+

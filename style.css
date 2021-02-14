@@ -1,0 +1,548 @@
+/* 
+* Title : Main css
+* Description : All main syle css.
+* Devlope : Harun Biswas Rubel
+* Date: 11-02-2021
+*/
+
+/* header css start */
+.above-header{
+    min-height: 63px;
+    border-bottom: 1px solid #000;
+}
+.above-header .d-flex{
+    flex-direction: inherit;
+    gap: 30px;
+    float: right;
+    min-height: 63px;
+    align-items: center;
+}
+a.nav-link:hover , li.active>a.nav-link{
+    color: #888888 !important;
+}
+.main-header{
+    min-height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-header .navbar-nav{
+    margin-top: 10px;
+}
+.main-header .nav-btn{
+    background-color: unset;
+}
+/* header css end */
+
+
+/* footer css start */
+.footer-witget {
+    background-color: #031830;
+    color: #fff;
+    margin-left: 0;
+}
+
+.footer-witget .title {
+    color: #B88B74;
+}
+
+.newsletter h4.tilte {
+    color: #B88B74;
+    font-weight: 600;
+}
+
+.newsletter .discription {
+    color: #fff;
+}
+input.newsletter-input {
+    width: 331px;
+    height: 45px;
+    border-radius: 2rem;
+    border: none;
+    background-color: #C4C4C4;
+    padding-left: 30px;
+    outline: none;
+}
+input.newsletter-input,
+button.btn.newsletter-form-btn, 
+input.newsletter-input::placeholder {
+    color: #000;
+    font-family: Hind;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 102%;
+}
+
+button.btn.newsletter-form-btn {
+    width: 130px;
+    height: 45px;
+    border-radius: 2rem;
+    background-color: #B88B74;
+    border: none;
+    margin-left: 10px;
+    color: #fff;
+    transition: .4s;
+    outline: none;
+}
+button.btn.newsletter-form-btn:hover{
+    opacity: .9;
+}
+ul.footer-contact-social a {
+    font-size: 34px;
+    color: #fff!important;
+    padding: 10px;
+    transition: .4s;
+}
+ul.footer-contact-social a:hover{
+    opacity: .8;
+}
+ul.footer-nav {
+    justify-content: center;
+}
+li.footer-nav-item:hover a {
+    text-decoration: none;
+}
+
+li.footer-nav-item {
+    padding: 0 20px;
+}
+
+li.left-dot:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    background-color: #031830;
+    width: 9px;
+    height: 9px;
+    left: -5px;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+/* footer css end */
+
+
+/* Home page css start */
+/* slider css start */
+.main-slider-btn{
+    width: 245px;
+    height: 52px;
+}
+.main-slider-item{
+    background-color: #F8EAE7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    min-height: 534px;
+    display: flex;
+    align-items: center;
+}
+.main-slider-item-1{
+    background-image: url(assets/images/home/banner/slider-1.png);
+}
+.main-slider-item-2{
+    background-image: url(assets/images/home/banner/slider-1.png);
+}
+.main-slider-item-3{
+    background-image: url(assets/images/home/banner/slider-1.png);
+}
+.main-slider-content h1{
+    font-size: 40px!important;
+}
+.main-slider-content p{
+    color: #0F2339;
+}
+.owl-dots {
+    display: none;
+}
+.owl-dots {
+    display: none;
+}
+
+.owl-nav {
+    position: absolute;
+    top: 50px;
+    right: 20%;
+}
+
+.owl-nav button span {
+    font-size: 57px;
+    color: #000;
+}
+
+.owl-nav button {
+    overflow: hidden;
+    height: 48px;
+    width: 48px;
+    background-color: #fff!important;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    outline: none;
+}
+/* slider css end */
+
+/* offer section css Start */
+.offer-nav-img{
+    height: 20px ;
+    width: 20px !important;
+}
+h4.offer-shopnow-text {
+    font-family: Roboto;
+    font-size: 16px;
+    margin-right: 80px;
+}
+
+h4.offer-shopnow-text:after {content: '';width: 77px;height: .5px;background-color: #888888;position: absolute;top: 25%;transform: translateY(-25%);}
+
+.offer-shop-now-btn {
+    border-radius: 50%;
+    padding: 8px!important;
+    background-color: #10243B;
+}
+
+.offer-shop-now-btn a {
+    font-size: 24px;
+}
+/* offer section css end */
+
+/* stroy section css start */
+.story-content-btn{
+    width: 152px;
+}
+.story-content h5 {
+    font-size: 15px;
+    color: #E4C8C1;
+}
+
+.story-content h1 {
+    font-size: 40px;
+    letter-spacing: 0.1em;
+}
+
+.story-content h1 strong {
+    font-size: 60px;
+    letter-spacing: 0.1em;
+    line-height: 99.5%;
+}
+/* stroy section css end */
+
+/* featured product section css start */
+section#fetured-product {
+    background-color: #E4C8C1;
+}
+
+.ferured-product-title h1 {
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 93.5%;
+}
+.fetured-product-item img {
+    height: 251px;
+}
+
+a.fetured-product-item-content-title, .price {
+    font-weight: 500;
+    font-size: 18px;
+    color: #031830!important;
+    letter-spacing: 0.1em;
+}
+
+h4.price {}
+
+button.product-btn {
+    background: unset;
+    font-size: 25px;
+    color: #031830;
+    padding: 0!important;
+    margin-right: 20px;
+    outline: none;
+}
+button.product-btn:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+/* featured product section css end */
+
+
+/* Benefit section css start */
+.ferured-product-title strong {
+    font-family: Hind;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #E4C8C1;
+    } 
+
+.benefit-item {
+    border: 2px solid #E4C8C1;
+    height: 371px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img.benefit-item-img {
+    width: 100px!important;
+    height: 100px;
+}
+
+.benefit-item-content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: .1em;
+}
+/* Benefit section css end */
+/* Home page css end */
+
+
+/* Catagory page start */
+/* baner css start */
+section#baner {
+    min-height: 522px;
+    display: flex;
+    align-items: center;
+    background-image: url(assets/images/catagory/banner/banner-1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.baner-content-wrp {
+    border-left: 6px solid #B88B74;
+}
+
+.baner-discription p {
+    line-height: 200%;
+/* or 30px */
+    letter-spacing: 0.65px;
+}
+/* baner css end */
+
+/* Filter section css start */
+select.filter-select {
+    width: 100%;
+    height: 34.83px;
+    border: 1px solid #E4C8C1;
+    border-radius: 2rem;
+    outline: none;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.94px;
+    line-height: 19px;
+}
+
+select.filter-select option {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.94px;
+    line-height: 19px;
+}
+/* Filter section css end */
+
+/* Main section css start */
+.main-title h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
+/* or 95% */
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.main-title h4 strong {
+    padding-right: 7px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+span.main-title-left-border {
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 1px solid #E4C8C1;
+}
+
+.main-search-form form {
+    position: relative;
+}
+
+input.main-search {
+    width: 265px;
+    height: 43px;
+    border: 1px solid #E18875;
+    border-radius: 2rem;
+    padding-left: 15px;
+    outline: none;
+}
+input.main-search::placeholder, input.main-search {
+    Font-family: Roboto;
+    Font-style: Regular;
+    Font-size: 12px;
+    Line-height: 18.91px;
+    Line-height: 134%;
+    color: #DCDCDC;
+}
+input.main-search{
+    color: #000000;
+}
+
+
+button.main-search-btn {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    border: unset;
+    height: 35.35px;
+    width: 34.48px;
+    border-radius: 50%;
+    background-color: #B88B74;
+    color: #fff;
+    font-size: 20px;
+    transform: rotateY(180deg);
+    outline: none;
+}
+
+.catagory-product-img {
+    height: 370px;
+    background-color: #E4C8C1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.catagory-product-img img {
+    width: 60%!important;
+}
+
+p.catagory-product-icon {
+    width: 34.02px;
+    height: 34.01px;
+    position: absolute;
+    top: 76%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    left: 78%;
+}
+.catagory-product-content a>h4 {
+    font-size: 19.4371px;
+    line-height: 31px;
+    letter-spacing: 0.1em;
+    color: #031830;
+}
+
+/* vulpute css start */
+.vulpute-content {
+    width: 100%;
+    min-height: 476.94px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vulpute-content h5 {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+/* or 116% */
+    color: #14294A;
+}
+
+.vulpute-content h2 {
+    font-size: 40px;
+    line-height: 41px;
+/* identical to box height, or 103% */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #B88B74;
+    padding: 8px 0;
+}
+
+.vulpute-content span {
+    padding: 0 63px;
+}
+
+a.vulpute-btn {
+    margin-top: 20px;
+    width: 147.67px;
+    height: 32.21px;
+    border: 1px solid #B88B74;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Fira Sans;
+    font-weight: normal;
+    font-size: 12.8408px;
+    line-height: 17px;
+    color: #14294A;
+}
+/* vulpute css emd */
+
+/* page number section css */
+.page-number-btn {border: 1px solid #E4E6EE;background-color: unset;margin: 4px;outline: none;border-radius: 0;height: 35.85px;width: 35.85px;color: #B88B74;transition: .4s;}
+
+.page-number-btn:focus {
+    box-shadow: unset;
+}
+
+.page-number-btn:hover, .page-number-btn.active {
+    border-color: #B88B74;
+}
+/* page number section css */
+/* Main section css end */
+
+
+
+/* Catagory page end */
+
+
+/* Product page css start */
+/* Breadcrumb css start */
+section#breadcrumb {
+    background-color: #031830;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ol.breadcrumb {
+    background-color: unset;
+    margin-top: 10px;
+}
+
+li.breadcrumb-item a {
+    color: #fff!important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: '//'!important;
+    color: #fff;
+}
+
+a {
+}
+
+.breadcrumb-item.active {
+    margin-top: 2px;
+}
+/* Breadcrumb css end */
+
+/* Product page css end */
